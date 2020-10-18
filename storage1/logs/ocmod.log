@@ -1,0 +1,4785 @@
+2019-02-05 15:25:59 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 61
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: {{ telephone }}
+LINE: 48
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 13:59:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 51
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: <footer>
+LINE: 38
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:02:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: <b>Filter <t style="color:red">(by Digital Elephant)</t></b>
+
+FILE: catalog/view/theme/default/template/product/category.twig
+CODE: <div class="col-sm-6 text-right">{{ results }}</div>
+LINE: 121
+
+FILE: catalog/view/theme/op-blueblack/template/product/category.twig
+CODE: <div class="col-sm-6 text-right">{{ results }}</div>
+LINE: 158
+
+FILE: catalog/view/theme/zSport/template/product/category.twig
+CODE: <div class="col-sm-6 text-right">{{ results }}</div>
+LINE: 159
+CODE: <div class="col-sm-6 text-left">{{ pagination }}</div>
+LINE: 120
+CODE: <div class="col-sm-6 text-left">{{ pagination }}</div>
+LINE: 157
+CODE: <div class="col-sm-6 text-left">{{ pagination }}</div>
+LINE: 158
+
+FILE: system/library/cache/file.php
+CODE: unlink($file);
+LINE: 16
+LINE: 67
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 51
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: <footer>
+LINE: 38
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:03:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 51
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: <footer>
+LINE: 38
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:05:42 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 50
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 51
+CODE: {{ telephone }}
+LINE: 77
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+CODE: {{ telephone }}
+LINE: 52
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: <footer>
+LINE: 38
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:06:20 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:07:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:12:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:16:14 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:18:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Two Factor Authentication for Open Cart 3 admin panel
+
+FILE: admin/controller/common/login.php
+CODE: $this->session->data['user_token'] = token(32);
+LINE: 19
+
+FILE: admin/model/user/user.php
+CODE: public function editPassword($user_id, $password) {
+LINE: 21
+
+FILE: admin/controller/startup/permission.php
+CODE: 'common/dashboard',
+LINE: 42
+
+FILE: admin/controller/startup/login.php
+CODE: 'common/login',
+LINE: 9
+LINE: 26
+
+FILE: system/library/cart/user.php
+CODE: public function login($username, $password) {
+LINE: 47
+CODE: $this->session->data['user_id'] = $user_query->row['user_id'];
+LINE: 51
+
+FILE: admin/controller/common/header.php
+CODE: $data['profile'] = $this->url->link('common/profile', 'user_token=' . $this->session->data['user_token'], true);
+LINE: 35
+
+FILE: admin/language/en-gb/common/header.php
+CODE: $_['text_profile']
+LINE: 8
+
+FILE: admin/view/template/common/header.twig
+CODE: <li><a href="{{ profile }}"><i class="fa fa-user-circle-o fa-fw"></i> {{ text_profile }}</a></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:21:09 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Two Factor Authentication for Open Cart 3 admin panel
+
+FILE: admin/controller/common/login.php
+CODE: $this->session->data['user_token'] = token(32);
+LINE: 19
+
+FILE: admin/model/user/user.php
+CODE: public function editPassword($user_id, $password) {
+LINE: 21
+
+FILE: admin/controller/startup/permission.php
+CODE: 'common/dashboard',
+LINE: 42
+
+FILE: admin/controller/startup/login.php
+CODE: 'common/login',
+LINE: 9
+LINE: 26
+
+FILE: system/library/cart/user.php
+CODE: public function login($username, $password) {
+LINE: 47
+CODE: $this->session->data['user_id'] = $user_query->row['user_id'];
+LINE: 51
+
+FILE: admin/controller/common/header.php
+CODE: $data['profile'] = $this->url->link('common/profile', 'user_token=' . $this->session->data['user_token'], true);
+LINE: 35
+
+FILE: admin/language/en-gb/common/header.php
+CODE: $_['text_profile']
+LINE: 8
+
+FILE: admin/view/template/common/header.twig
+CODE: <li><a href="{{ profile }}"><i class="fa fa-user-circle-o fa-fw"></i> {{ text_profile }}</a></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:27:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Adding support for install.php, install.sql when installing extensions
+
+FILE: admin/controller/marketplace/install.php
+CODE: $json['next'] = str_replace('&amp;', '&', $this->url->link('marketplace/install/remove', 'user_token=' . $this->session->data['user_token'], true));
+LINE: 348
+CODE: public function remove() {
+LINE: 440
+
+FILE: admin/language/en-gb/marketplace/install.php
+CODE: $_['text_remove']      = 'Removing temporary files!';
+LINE: 10
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Installer Fix Allow All directories
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 226
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+
+FILE: catalog/controller/common/footer.php
+CODE: return $this->load->view('common/footer', $data);
+LINE: 64
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: </body></html>
+LINE: 50
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: </body></html>
+LINE: 56
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: </body></html>
+LINE: 65
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: </body></html>
+LINE: 59
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: </body></html>
+LINE: 55
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: </body></html>
+LINE: 54
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: </body></html>
+LINE: 57
+
+FILE: catalog/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 95
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Two Factor Authentication for Open Cart 3 admin panel
+
+FILE: admin/controller/common/login.php
+CODE: $this->session->data['user_token'] = token(32);
+LINE: 19
+
+FILE: admin/model/user/user.php
+CODE: public function editPassword($user_id, $password) {
+LINE: 21
+
+FILE: admin/controller/startup/permission.php
+CODE: 'common/dashboard',
+LINE: 42
+
+FILE: admin/controller/startup/login.php
+CODE: 'common/login',
+LINE: 9
+LINE: 26
+
+FILE: system/library/cart/user.php
+CODE: public function login($username, $password) {
+LINE: 47
+CODE: $this->session->data['user_id'] = $user_query->row['user_id'];
+LINE: 51
+
+FILE: admin/controller/common/header.php
+CODE: $data['profile'] = $this->url->link('common/profile', 'user_token=' . $this->session->data['user_token'], true);
+LINE: 35
+
+FILE: admin/language/en-gb/common/header.php
+CODE: $_['text_profile']
+LINE: 8
+
+FILE: admin/view/template/common/header.twig
+CODE: <li><a href="{{ profile }}"><i class="fa fa-user-circle-o fa-fw"></i> {{ text_profile }}</a></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 55
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 56
+CODE: {{ telephone }}
+LINE: 82
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: {{ telephone }}
+LINE: 57
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:27:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Adding support for install.php, install.sql when installing extensions
+
+FILE: admin/controller/marketplace/install.php
+CODE: $json['next'] = str_replace('&amp;', '&', $this->url->link('marketplace/install/remove', 'user_token=' . $this->session->data['user_token'], true));
+LINE: 348
+CODE: public function remove() {
+LINE: 440
+
+FILE: admin/language/en-gb/marketplace/install.php
+CODE: $_['text_remove']      = 'Removing temporary files!';
+LINE: 10
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Installer Fix Allow All directories
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 226
+----------------------------------------------------------------
+MOD: Menu Payment Confirmation
+
+FILE: admin/controller/common/column_left.php
+CODE: $return = array();
+LINE: 535
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_return']
+LINE: 61
+
+FILE: catalog/controller/account/account.php
+CODE: $data['order'] = $this->url->link('account/order', '', true);
+LINE: 59
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['order'] = $this->url->link('account/order', '', true);
+LINE: 18
+
+FILE: catalog/language/en-gb/account/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/account/account.twig
+CODE: <li><a href="{{ order }}">{{ text_order }}</a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/wnweb/template/account/account.twig
+CODE: <li><a href="{{ order }}">{{ text_order }}</a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/extension/module/account.twig
+CODE: <a href="{{ order }}" class="list-group-item">{{ text_order }}</a>
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/extension/module/account.twig
+CODE: <a href="{{ order }}" class="list-group-item">{{ text_order }}</a>
+LINE: 8
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 48
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']
+LINE: 5
+CODE: <ul class="list-inline">
+LINE: 49
+CODE: <ul class="list-inline">
+LINE: 52
+CODE: <ul class="list-inline">
+LINE: 49
+CODE: <ul class="list-inline">
+LINE: 55
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 50
+CODE: <ul class="list-inline">
+LINE: 55
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 6
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_information']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 21
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 20
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 20
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+CODE: return $this->load->view('common/footer', $data);
+LINE: 67
+CODE: </body></html>
+LINE: 57
+CODE: </body></html>
+LINE: 57
+CODE: </body></html>
+LINE: 53
+CODE: </body></html>
+LINE: 59
+CODE: </body></html>
+LINE: 68
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 62
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 58
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 57
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 60
+CODE: return $this->load->view('common/header', $data);
+LINE: 98
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Two Factor Authentication for Open Cart 3 admin panel
+
+FILE: admin/controller/common/login.php
+CODE: $this->session->data['user_token'] = token(32);
+LINE: 19
+
+FILE: admin/model/user/user.php
+CODE: public function editPassword($user_id, $password) {
+LINE: 21
+
+FILE: admin/controller/startup/permission.php
+CODE: 'common/dashboard',
+LINE: 42
+
+FILE: admin/controller/startup/login.php
+CODE: 'common/login',
+LINE: 9
+LINE: 26
+
+FILE: system/library/cart/user.php
+CODE: public function login($username, $password) {
+LINE: 47
+CODE: $this->session->data['user_id'] = $user_query->row['user_id'];
+LINE: 51
+
+FILE: admin/controller/common/header.php
+CODE: $data['profile'] = $this->url->link('common/profile', 'user_token=' . $this->session->data['user_token'], true);
+LINE: 35
+
+FILE: admin/language/en-gb/common/header.php
+CODE: $_['text_profile']
+LINE: 8
+
+FILE: admin/view/template/common/header.twig
+CODE: <li><a href="{{ profile }}"><i class="fa fa-user-circle-o fa-fw"></i> {{ text_profile }}</a></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 58
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 58
+CODE: {{ telephone }}
+LINE: 85
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 59
+CODE: {{ telephone }}
+LINE: 85
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------
+2019-03-14 14:29:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+LINE: 19
+----------------------------------------------------------------
+MOD: Adding support for install.php, install.sql when installing extensions
+
+FILE: admin/controller/marketplace/install.php
+CODE: $json['next'] = str_replace('&amp;', '&', $this->url->link('marketplace/install/remove', 'user_token=' . $this->session->data['user_token'], true));
+LINE: 348
+CODE: public function remove() {
+LINE: 440
+
+FILE: admin/language/en-gb/marketplace/install.php
+CODE: $_['text_remove']      = 'Removing temporary files!';
+LINE: 10
+----------------------------------------------------------------
+MOD: Catalog - Menu home button
+
+FILE: catalog/view/theme/default/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zFashion/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 9
+
+FILE: catalog/view/theme/zSport/template/common/menu.twig
+CODE: <ul class="nav navbar-nav">
+LINE: 8
+----------------------------------------------------------------
+MOD: Clean Maintenance Mode Page
+
+FILE: catalog/view/theme/default/template/common/maintenance.twig
+CODE: {{ header }}
+LINE: 0
+
+FILE: catalog/controller/common/maintenance.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 35
+----------------------------------------------------------------
+MOD: Clearcart V3
+
+FILE: catalog/view/theme/default/template/common/cart.twig
+CODE: <a href="{{ cart }}"><strong><i class="fa fa-shopping-cart"></i> {{ text_cart }}</strong></a>&nbsp;&nbsp;&nbsp;<a href="{{ checkout }}"><strong><i class="fa fa-share"></i> {{ text_checkout }}</strong></a></p>
+LINE: 45
+
+FILE: catalog/view/theme/zCamera/template/common/cart.twig
+CODE: <a href="{{ cart }}"><strong><i class="fa fa-shopping-cart"></i> {{ text_cart }}</strong></a>&nbsp;&nbsp;&nbsp;<a href="{{ checkout }}"><strong><i class="fa fa-share"></i> {{ text_checkout }}</strong></a></p>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/cart.twig
+CODE: <a href="{{ cart }}"><strong><i class="fa fa-shopping-cart"></i> {{ text_cart }}</strong></a>&nbsp;&nbsp;&nbsp;<a href="{{ checkout }}"><strong><i class="fa fa-share"></i> {{ text_checkout }}</strong></a></p>
+LINE: 41
+
+FILE: catalog/view/theme/zSport/template/common/cart.twig
+CODE: <a href="{{ cart }}"><strong><i class="fa fa-shopping-cart"></i> {{ text_cart }}</strong></a>&nbsp;&nbsp;&nbsp;<a href="{{ checkout }}"><strong><i class="fa fa-share"></i> {{ text_checkout }}</strong></a></p>
+LINE: 41
+
+FILE: catalog/controller/common/cart.php
+CODE: public function info() {
+LINE: 198
+
+FILE: catalog/controller/checkout/cart.php
+CODE: public function add() {
+LINE: 321
+CODE: $this->load->language('common/cart');
+LINE: 10
+CODE: $this->load->language('checkout/cart');
+LINE: 10
+LINE: 292
+LINE: 356
+LINE: 499
+LINE: 532
+
+FILE: catalog/language/en-gb/common/cart.php
+CODE: $_['text_recurring'] = 'Payment Profile';
+LINE: 12
+
+FILE: catalog/language/en-gb/checkout/cart.php
+CODE: $_['column_total']             = 'Total';
+LINE: 42
+
+FILE: catalog/view/theme/default/template/checkout/cart.twig
+CODE: {% if modules %}
+LINE: 105
+----------------------------------------------------------------
+MOD: Indian Rupee Symbol 
+
+FILE: system/library/cart/currency.php
+CODE: if ($symbol_left) {
+LINE: 42
+CODE: if ($symbol_right) {
+LINE: 53
+
+FILE: catalog/view/theme/default/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 5
+
+FILE: catalog/view/theme/zFashion/template/common/currency.twig
+CODE: {% if currency.symbol_left and currency.code == code %} <strong>{{ currency.symbol_left }}</strong> {% elseif currency.symbol_right and currency.code == code %} <strong>{{ currency.symbol_right }}</strong> {% endif %}
+LINE: 4
+
+FILE: catalog/view/theme/default/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/op-blueblack/template/common/header.twig
+CODE: </head>
+LINE: 42
+
+FILE: catalog/view/theme/wnweb/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zCamera/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zFashion/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zMaxcart/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zSport/template/common/header.twig
+CODE: </head>
+LINE: 41
+
+FILE: catalog/view/theme/zerocart-blue/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-green/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-orange/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-pink/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-red/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-violet/template/common/header.twig
+CODE: </head>
+LINE: 40
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/header.twig
+CODE: </head>
+LINE: 40
+----------------------------------------------------------------
+MOD: Installer Fix Allow All directories
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 226
+----------------------------------------------------------------
+MOD: Menu Payment Confirmation
+
+FILE: admin/controller/common/column_left.php
+CODE: $return = array();
+LINE: 535
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_return']
+LINE: 61
+
+FILE: catalog/controller/account/account.php
+CODE: $data['order'] = $this->url->link('account/order', '', true);
+LINE: 59
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['order'] = $this->url->link('account/order', '', true);
+LINE: 18
+
+FILE: catalog/language/en-gb/account/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/account/account.twig
+CODE: <li><a href="{{ order }}">{{ text_order }}</a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/wnweb/template/account/account.twig
+CODE: <li><a href="{{ order }}">{{ text_order }}</a></li>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/extension/module/account.twig
+CODE: <a href="{{ order }}" class="list-group-item">{{ text_order }}</a>
+LINE: 8
+
+FILE: catalog/view/theme/wnweb/template/extension/module/account.twig
+CODE: <a href="{{ order }}" class="list-group-item">{{ text_order }}</a>
+LINE: 8
+
+FILE: catalog/controller/common/header.php
+CODE: $this->load->language('common/header');
+LINE: 48
+
+FILE: catalog/language/en-gb/common/header.php
+CODE: $_['text_home']
+LINE: 5
+CODE: <ul class="list-inline">
+LINE: 49
+CODE: <ul class="list-inline">
+LINE: 52
+CODE: <ul class="list-inline">
+LINE: 49
+CODE: <ul class="list-inline">
+LINE: 55
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 50
+CODE: <ul class="list-inline">
+LINE: 55
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+CODE: <ul class="list-inline">
+LINE: 51
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 6
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_information']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/op-blueblack/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/wnweb/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zCamera/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zFashion/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 21
+
+FILE: catalog/view/theme/zMaxcart/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 20
+
+FILE: catalog/view/theme/zSport/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 20
+
+FILE: catalog/view/theme/zerocart-blue/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-green/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-orange/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-pink/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-red/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-violet/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+
+FILE: catalog/view/theme/zerocart-yellow/template/common/footer.twig
+CODE: <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+LINE: 19
+----------------------------------------------------------------
+MOD: Order ID Checkout Page
+
+FILE: catalog/controller/checkout/success.php
+CODE: if (isset($this->session->data['order_id'])) {
+LINE: 8
+CODE: $data['continue'] = $this->url->link('common/home');
+LINE: 58
+
+FILE: catalog/language/en-gb/checkout/success.php
+CODE: // Text
+LINE: 5
+----------------------------------------------------------------
+MOD: Order Tracking Extension
+CODE: return $this->load->view('common/footer', $data);
+LINE: 67
+CODE: </body></html>
+LINE: 57
+CODE: </body></html>
+LINE: 57
+CODE: </body></html>
+LINE: 53
+CODE: </body></html>
+LINE: 59
+CODE: </body></html>
+LINE: 68
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 62
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 58
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 57
+CODE: </body></html>
+LINE: 60
+CODE: </body></html>
+LINE: 60
+CODE: return $this->load->view('common/header', $data);
+LINE: 98
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 48
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 47
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <body>
+LINE: 46
+CODE: <body class="{{cls_body}}">
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Toggle Admin Menu Left
+
+FILE: admin/controller/common/header.php
+CODE: return $this->load->view('common/header', $data);
+LINE: 86
+
+FILE: admin/view/template/common/header.twig
+CODE: <img src="view/image/logo.png" alt="{{ heading_title }}" title="{{ heading_title }}" />
+LINE: 39
+CODE: <a href="#" id="button-menu" class="hidden-md hidden-lg"><span class="fa fa-bars"></span></a>
+LINE: 45
+
+FILE: admin/view/template/common/footer.twig
+CODE: <footer id="footer">
+LINE: 14
+----------------------------------------------------------------
+MOD: Two Factor Authentication for Open Cart 3 admin panel
+
+FILE: admin/controller/common/login.php
+CODE: $this->session->data['user_token'] = token(32);
+LINE: 19
+
+FILE: admin/model/user/user.php
+CODE: public function editPassword($user_id, $password) {
+LINE: 21
+
+FILE: admin/controller/startup/permission.php
+CODE: 'common/dashboard',
+LINE: 42
+
+FILE: admin/controller/startup/login.php
+CODE: 'common/login',
+LINE: 9
+LINE: 26
+
+FILE: system/library/cart/user.php
+CODE: public function login($username, $password) {
+LINE: 47
+CODE: $this->session->data['user_id'] = $user_query->row['user_id'];
+LINE: 51
+CODE: $data['profile'] = $this->url->link('common/profile', 'user_token=' . $this->session->data['user_token'], true);
+LINE: 35
+
+FILE: admin/language/en-gb/common/header.php
+CODE: $_['text_profile']
+LINE: 8
+CODE: <li><a href="{{ profile }}"><i class="fa fa-user-circle-o fa-fw"></i> {{ text_profile }}</a></li>
+LINE: 56
+----------------------------------------------------------------
+MOD: Whatsapp order
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['heading_title']                  = 'Settings';
+LINE: 25
+
+FILE: admin/controller/setting/setting.php
+CODE: $data['breadcrumbs'] = array();
+LINE: 142
+CODE: $data['user_token'] = $this->session->data['user_token'];
+LINE: 198
+
+FILE: admin/view/template/setting/setting.twig
+CODE: <li><a href="#tab-server" data-toggle="tab">{{ tab_server }}</a></li>
+LINE: 41
+CODE: <div class="tab-content">
+LINE: 90
+
+FILE: catalog/controller/product/product.php
+CODE: $data['products'] = array();
+LINE: 430
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 308
+LINE: 392
+LINE: 473
+LINE: 541
+
+FILE: catalog/view/theme/op-blueblack/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+
+FILE: catalog/view/theme/zSport/template/product/product.twig
+CODE: {{ button_cart }}
+LINE: 283
+LINE: 337
+CODE: $this->load->language('common/header');
+LINE: 61
+CODE: {{ telephone }}
+LINE: 58
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 58
+CODE: {{ telephone }}
+LINE: 85
+CODE: {{ telephone }}
+NOT FOUND - OPERATIONS ABORTED!
+CODE: {{ telephone }}
+LINE: 59
+CODE: {{ telephone }}
+LINE: 85
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: {{ telephone }}
+LINE: 60
+CODE: $this->load->language('common/footer');
+LINE: 19
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 38
+CODE: <footer>
+NOT FOUND - OPERATIONS ABORTED!
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+CODE: <footer>
+LINE: 37
+----------------------------------------------------------------

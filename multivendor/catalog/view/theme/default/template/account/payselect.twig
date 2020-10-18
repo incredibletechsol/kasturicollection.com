@@ -1,0 +1,21 @@
+<form action="{{ action }}" method="post" enctype="multipart/form-data" class="form-horizontal">
+  {{ text_instruction }}
+  {% for payselect in payselects %}
+  <div class="radio">
+    <label>
+      {% if payselect.select_id == select_id %}
+      <input type="radio" name="select_id" value="{{ payselect.select_id }}" checked="checked" />
+      {% else %}
+      <input type="radio" name="select_id" value="{{ payselect.select_id }}" />
+      {% endif %}
+      {{ payselect.name }}
+    </label>
+  </div>
+  {% endfor %}
+
+  <div class="button clearfix">
+    <div class="pull-right">
+      <input class="btn btn-primary" type="submit" value="{{ button_select }}" />
+    </div>
+  </div>
+</form>

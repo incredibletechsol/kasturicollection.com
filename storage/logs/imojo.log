@@ -1,0 +1,181 @@
+2018-12-01 16:33:57 - Action URL: http://vinayakelectrical.in/index.php
+2018-12-01 16:33:57 - Step 1: Redirecting to extension/payment/instamojo/start
+2018-12-01 16:33:59 - Step 2: Creating new Order with 106
+2018-12-01 16:33:59 - Client Id: RrTU | Client Secret: 2tqS | TestMode : 0
+2018-12-01 16:34:00 - Data Passed for creating Order : Array
+(
+    [description] =>  8MM LED INDICATOR (LENCE) - 1  (Order ID: 106)
+    [name] => Akshay Suryawanshi
+    [email] => amitbaramatimca@gmail.com
+    [phone] => 8796154725
+    [amount] => 53
+    [currency] => INR
+    [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+    [transaction_id] => 1543682039-106
+)
+
+2018-12-01 16:34:00 - Response from ServerstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 0ad4b7a5fab74e81bcb61c649d968c13
+            [transaction_id] => 1543682039-106
+            [status] => pending
+            [currency] => INR
+            [amount] => 53.00
+            [name] => Akshay Suryawanshi
+            [email] => amitbaramatimca@gmail.com
+            [phone] => +918796154725
+            [description] => 8MM LED INDICATOR (LENCE) - 1  (Order ID: 106)
+            [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+            [webhook_url] => 
+            [created_at] => 2018-12-01T16:34:00.923491Z
+            [resource_uri] => https://www.instamojo.com/v2/gateway/orders/id:0ad4b7a5fab74e81bcb61c649d968c13/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://www.instamojo.com/@amitmca10/0ad4b7a5fab74e81bcb61c649d968c13?embed=form
+        )
+
+)
+
+2019-01-19 16:17:26 - Action URL: http://vinayakelectrical.in/index.php
+2019-01-19 16:17:26 - Step 1: Redirecting to extension/payment/instamojo/start
+2019-01-19 16:17:28 - Step 2: Creating new Order with 126
+2019-01-19 16:17:28 - Client Id: RrTU | Client Secret: 2tqS | TestMode : 0
+2019-01-19 16:17:28 - Data Passed for creating Order : Array
+(
+    [description] =>  8MM LED INDICATOR (LENCE) - 1  (Order ID: 126)
+    [name] => Akshay Suryawanshi
+    [email] => amitbaramatimca@gmail.com
+    [phone] => 8796154725
+    [amount] => 53
+    [currency] => INR
+    [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+    [transaction_id] => 1547914648-126
+)
+
+2019-01-19 16:17:29 - Response from ServerstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 396660038c9b4d9086fac01023c78cbd
+            [transaction_id] => 1547914648-126
+            [status] => pending
+            [currency] => INR
+            [amount] => 53.00
+            [name] => Akshay Suryawanshi
+            [email] => amitbaramatimca@gmail.com
+            [phone] => +918796154725
+            [description] => 8MM LED INDICATOR (LENCE) - 1  (Order ID: 126)
+            [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+            [webhook_url] => 
+            [created_at] => 2019-01-19T16:17:29.277110Z
+            [resource_uri] => https://www.instamojo.com/v2/gateway/orders/id:396660038c9b4d9086fac01023c78cbd/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://www.instamojo.com/@amitmca10/396660038c9b4d9086fac01023c78cbd?embed=form
+        )
+
+)
+
+2019-02-15 7:53:15 - Action URL: http://vinayakelectrical.in/index.php
+2019-02-15 7:53:15 - Step 1: Redirecting to extension/payment/instamojo/start
+2019-02-15 7:53:18 - Step 2: Creating new Order with 159
+2019-02-15 7:53:18 - Client Id: RrTU | Client Secret: 2tqS | TestMode : 0
+2019-02-15 7:53:18 - Data Passed for creating Order : Array
+(
+    [description] =>  8MM LED INDICATOR (LENCE) - 1  8MM LED INDICATOR (LENCE) - 2  (Order ID: 159)
+    [name] => Akshay Suryawanshi
+    [email] => amitbaramatimca@gmail.com
+    [phone] => 8796154725
+    [amount] => 59
+    [currency] => INR
+    [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+    [transaction_id] => 1550217198-159
+)
+
+2019-02-15 7:53:19 - Response from ServerstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 06b12c5604414f7aaa6046c9cb3cbdd2
+            [transaction_id] => 1550217198-159
+            [status] => pending
+            [currency] => INR
+            [amount] => 59.00
+            [name] => Akshay Suryawanshi
+            [email] => amitbaramatimca@gmail.com
+            [phone] => +918796154725
+            [description] => 8MM LED INDICATOR (LENCE) - 1  8MM LED INDICATOR (LENCE) - 2  (Order ID: 159)
+            [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+            [webhook_url] => 
+            [created_at] => 2019-02-15T07:53:19.149568Z
+            [resource_uri] => https://www.instamojo.com/v2/gateway/orders/id:06b12c5604414f7aaa6046c9cb3cbdd2/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://www.instamojo.com/@amitmca10/06b12c5604414f7aaa6046c9cb3cbdd2?embed=form
+        )
+
+)
+
+2019-02-18 12:23:29 - Action URL: http://vinayakelectrical.in/index.php
+2019-02-18 12:23:29 - Step 1: Redirecting to extension/payment/instamojo/start
+2019-02-18 12:23:32 - Step 2: Creating new Order with 188
+2019-02-18 12:23:32 - Client Id: RrTU | Client Secret: 2tqS | TestMode : 0
+2019-02-18 12:23:33 - Data Passed for creating Order : Array
+(
+    [description] =>  8MM LED INDICATOR (LENCE) - 2  (Order ID: 188)
+    [name] => Vishwas Panke
+    [email] => vishwas@kartpay.com
+    [phone] => 8857835721
+    [amount] => 6
+    [currency] => INR
+    [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+    [transaction_id] => 1550492612-188
+)
+
+2019-02-18 12:23:33 - Validation Error Occured with following Errors :  with 
+2019-02-18 12:23:33 - stdClass Object
+(
+    [amount] => Array
+        (
+            [0] => Amount cannot be less than INR 9.00.
+        )
+
+)
+
+2020-06-28 4:24:54 - Action URL: http://vinayakelectrical.in/index.php
+2020-06-28 4:24:54 - Step 1: Redirecting to extension/payment/instamojo/start
+2020-06-28 4:24:56 - Step 2: Creating new Order with 257
+2020-06-28 4:24:56 - Client Id: RrTU | Client Secret: 2tqS | TestMode : 0
+2020-06-28 4:24:59 - Data Passed for creating Order : Array
+(
+    [description] => 8MM LED INDICATOR (LENCE)1 - 3  (Order ID: 257)
+    [name] => Akshay Suryawanshi
+    [email] => amitbaramatimca@gmail.com
+    [phone] => 8796154725
+    [amount] => 6
+    [currency] => INR
+    [redirect_url] => http://vinayakelectrical.in/index.php?route=extension/payment/instamojo/confirm
+    [transaction_id] => 1593318296-257
+)
+
+2020-06-28 4:25:00 - Validation Error Occured with following Errors :  with 
+2020-06-28 4:25:00 - stdClass Object
+(
+    [amount] => Array
+        (
+            [0] => Amount cannot be less than INR 9.00.
+        )
+
+)
+

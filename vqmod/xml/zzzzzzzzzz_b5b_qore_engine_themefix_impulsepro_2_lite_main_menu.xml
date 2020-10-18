@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Base5Builder - Main Menu</id>
+	<version>1.0</version>
+	<vqmver>2.6.0</vqmver>
+	<author>base5builder.com</author>
+	<file name="admin/view/template/common/column_left.twig">
+		<operation error="skip">
+			<search position="replace"><![CDATA[<nav id="column-left">]]></search>
+			<add><![CDATA[<nav id="column-left" class="col-md-3 left_col">
+				<div class="left_col scroll-view">
+					<!-- sidebar menu -->
+					<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+						<div class="menu_section">]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="before"><![CDATA[</nav>]]></search>
+			<add><![CDATA[</div>
+				</div>
+					</div>]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[<div id="navigation">]]></search>
+			<add><![CDATA[<div id="navigation" class="hidden">]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[<ul id="menu">]]></search>
+			<add><![CDATA[
+				<div class="sidebar-logo">
+					<img class="img-responsive" src="view/template/b5b_qore_engine/themes/{{ b5b_qore_engine_active_theme }}/default/images/logo.png">
+				</div>
+				<ul id="menu" class="nav side-menu">]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[data-toggle="collapse"]]></search>
+			<add><![CDATA[]]></add>
+		</operation>
+		<!-- <operation error="skip">
+			<search position="replace"><![CDATA[collapsed]]></search>
+			<add><![CDATA[]]></add>
+		</operation> -->
+		<operation error="skip">
+			<search position="ibefore"><![CDATA[</a>]]></search>
+			<add><![CDATA[<span class="fa fa-chevron-down"></span>]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[<ul id="collapse{{ i }}" class="collapse">]]></search>
+			<add><![CDATA[<ul id="collapse{{ i }}" class="nav child_menu">]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[<div id="stats">]]></search>
+			<add><![CDATA[<div id="stats-old" class="hidden">]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="before"><![CDATA[<div id="stats-old" class="hidden">]]></search>
+			<add><![CDATA[<div id="stats" class="hidden-xs hidden-sm" data-entry-1-label="{{ text_complete_status }}" data-entry-1-value={{ complete_status }}" data-entry-2-label="{{ text_processing_status }}" data-entry-2-value="{{ processing_status }}" data-entry-3-label="{{ text_other_status }}" data-entry-3-value="{{ other_status }}">
+					<h3>{{ b5b_qore_engine.language.text_order }}</h3>
+					<canvas id="stats-canvas" height="140" width="140"></canvas>
+				</div>]]></add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,112 @@
+ 
+<!-- Modal window to check order status -->
+    <div class="modal fade" id="check-order-status-window" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{text_title}}</h4>
+          </div>
+          <div class="modal-body">
+            <form onsubmit="return false" method="post" role="form" id="order_status_form_1">
+              <div class="panel-body check-order-status">
+                  <div class="form-group required">
+                <label class="control-label" for="input-order_id-or-email">{{ entry_input }}</label>
+                <input type="text" name="order_id_or_email" value="" placeholder="{{ entry_input }}" class="form-control order_id-or-email">
+                </div>
+                
+                {{captcha}}
+                <div class="text-center">
+                <button type="button" data-loading-text="" id="check-order-status-btn" onClick="check_oder_status($('#order_status_form_1'))" class="btn btn-green btn-lg">{{button_check}}</button>
+              </div>
+                
+                <div class="result"></div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">{{button_close}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<script type="text/javascript">
+  
+  $('#check-order-status-window').on('hidden.bs.modal', function () {
+        var form = $("#order_status_form_1");
+        $(form).find(":input").val("");
+        $(form).find(".result").removeClass("alert alert-danger").empty();
+
+    });
+
+
+function check_oder_status(form) {
+    var result = $("#check-order-status-window").find(".result"), fdata = getFormData($(form));
+    $.ajax({
+        type: "POST",
+        url: 'index.php?route=extension/module/order_tracking/get_status',
+        data: fdata,
+        dataType: 'json',
+        success: function(json) {  
+            if(json) {
+                // Some validation error
+                if(json.error) {
+                    result.addClass("alert alert-danger").html(json.error)
+
+                // Show orders statuses
+                } else {
+                    var total_orders = json.result.length,
+                        current_order_number = 1;
+
+                    if(total_orders){
+                      result.append('<br><b><u>'+json.heading+'</u></b>');
+                    } else{
+                      result.append('<br><b><u>'+json.message+'</u></b>');
+                    }
+          
+                    // Print info about orders
+                    $.each(json.result, function (index, order) {
+                        var order_info = "<div class='order'>";
+            
+
+
+                        order_info += '<b>{{text_order_id}}</b>: ' + order.order_id;
+                        order_info += '<br><b>{{text_order_status}}</b>: ' + order.order_status;
+                        order_info += '<br><b>{{text_date}}</b>: '+ order.date_added;
+
+                        // Add split line if here more than 1 orders
+                        if (total_orders > 1 && current_order_number != total_orders) {
+                            order_info += "<span class='order-split-line'/>"
+                        }
+
+                        order_info += "</div>";
+
+                        result.append(order_info);
+                        current_order_number++;
+                    });
+                }
+            }
+    },
+        beforeSend: function() {
+            result.html("").removeClass("alert alert-danger").show();
+        },
+    });
+}
+
+function getFormData($form){
+    var unindexed_array = $form.serializeArray();
+    var indexed_array = {};
+
+    $.map(unindexed_array, function(n, i){
+        indexed_array[n['name']] = n['value'];
+    });
+
+    return indexed_array;
+}
+
+
+</script>

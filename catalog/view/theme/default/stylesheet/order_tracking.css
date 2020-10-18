@@ -1,0 +1,61 @@
+   <style type="text/css">
+  .check-order-status {
+    padding-bottom: 5px;
+}
+.check-order-status header {
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    padding-bottom: 6px;
+    border-bottom: 2px dotted #444;
+    margin-bottom: 10px;
+}
+.check-order-status .order_id-or-email {
+    margin-bottom: 15px; 
+}
+.check-order-status .form-group {
+    margin-bottom: 5px;
+}
+.check-order-status .result {
+    margin: 5px;
+}
+.check-order-status .order-split-line {
+    display: block;
+    margin: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+/* Styles for modal window */
+#check-order-status-window button.btn-primary,
+#check-order-status-window .order_id-or-email {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+#check-order-status-window label {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+#check-order-status-window .order_id-or-email {
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+/* Results */
+#check-order-status-window .result {
+    font-size: 14px;
+}
+/* In case error*/
+#check-order-status-window .result.text-danger {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* For modal background */
+#check-order-status-window .modal-dialog {z-index: 1600}
+</style>

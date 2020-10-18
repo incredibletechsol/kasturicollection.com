@@ -1,0 +1,95 @@
+
+				 
+				 	{% if wa_whatsapp_onbottom == 1 %}
+				 <style>
+				 	.wcf2w_button {
+					    border-radius: 50px!important;
+					    text-align: center!important;
+					    padding: 0px!important;
+					    outline: none!important;
+					    text-decoration: none!important;
+					    border: none!important;
+					    box-shadow: none!important;
+					    position: fixed;
+					    width: 60px;
+					    height: 60px;
+					    margin: 0px!important;
+					    line-height: normal!important;
+					    opacity: 0.9;
+					    z-index: 99999999!important;
+					  }
+					.wcf2w_button:link {
+					    text-decoration: none!important;
+					    outline: none!important;
+					    border: none!important;
+					    box-shadow: none!important;
+					   } 
+					  .wcf2w_button i {
+					    font-size: 40px!important;
+					    margin-top: 10px;
+					}    
+				 </style>
+				 <a data-title="Contact Us" href="{{wa_link}}={{ wa_whatsapp_no }}" class="  wcf2w_button whatsapp_tooltip" style="right: 20px; bottom: 20px; background-color: #2ecc71; color:#ffffff;" target="_blank">
+		    	<i class="fa fa-whatsapp"></i>
+		    	</a>
+		    	
+				{% endif %}
+			
+<footer>
+  <div class="container">
+    <div class="row">
+      {% if informations %}
+      <div class="col-sm-3">
+        <h5>{{ text_information }}</h5>
+        <ul class="list-unstyled">
+         {% for information in informations %}
+          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <div class="col-sm-3">
+        <h5>{{ text_service }}</h5>
+        <ul class="list-unstyled">
+          <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+
+		  <li><a href="{{ payconfirm }}">{{ text_payconfirm }}</a></li>
+			
+          <li><a href="{{ return }}">{{ text_return }}</a></li>
+          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>{{ text_extra }}</h5>
+        <ul class="list-unstyled">
+          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
+          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
+          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
+          <li><a href="{{ special }}">{{ text_special }}</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>{{ text_account }}</h5>
+        <ul class="list-unstyled">
+          <li><a href="{{ account }}">{{ text_account }}</a></li>
+          <li><a href="{{ order }}">{{ text_order }}</a></li>
+          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p>{{ powered }}</p>
+  </div>
+</footer>
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+   
+{{ order_tracking_module }}
+
+</body></html>

@@ -1,0 +1,122 @@
+<div class="heading">
+	<h3>{{ heading_title }}</h3>
+</div>
+<div class="row">
+  {% for product in products %}
+  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+  <div class="item_product">
+    <div class="product-thumb transition">
+        {% if imagerotator_status=="1" %}
+                     <div class="item">
+                        <div class="col-item">
+                          <div class="product-wrapper">
+                            <div class="thumb-wrapper">
+                               <a class="blue test thumb flip" href="{{ product.href }}">
+                        <span class="face"><div class="image"><img style="width:85%;" src="{{ product.thumb }}" alt="{{ product.name }}"></div></span>
+                          <span class="face back"><div class="image"><img style="width:85%;" src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" href="{{ product.href }}"></div></span></a>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+                {% else %}
+              <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+                    {% endif %} 
+     
+      <div class="caption">
+        <h4 class="product-name"><a href="{{ product.href }}">{{ product.name }}</a></h4>
+        {% if product.rating %}
+        <div class="rating">
+          {% for i in 5 %}
+          {% if product.rating < i %}
+          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+          {% else %}
+          <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+       {% if product.price %}
+        <p class="price">
+		  {% if not product.special %}
+          {{ product.price }}
+          {% else %}
+          <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
+          <div class="sale">
+	      	<span>HOT</span>
+	      </div>
+          {% endif %}
+        </p>
+        {% endif %}
+      </div>
+      <div class="button-group">
+        <button type="button" onclick="cart.add('{{ product.product_id }}');" class="button-cart" 
+				{% if (product['quantity']>0) %}
+		        	><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+		        {% else %}
+		        	disabled><i class="fa fa-ban"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_not }}</span></button>
+		        {% endif %}
+			
+      </div>
+      <div class="actionswc">
+        <button type="button" data-toggle="tooltip" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-heart"></i></button>
+        <button type="button" data-toggle="tooltip" title="{{ button_compare }}" onclick="compare.add('{{ product.product_id }}');"><i class="fa fa-exchange"></i></button>
+        </div>
+    </div>
+    </div>
+  </div>
+   
+  {% endfor %}
+  
+  {% for product in products %}
+  <div class="product-layout-col">
+   <div class="product-thumb transition">
+   	<div class="col-sm-4">
+        {% if imagerotator_status=="1" %}
+                     <div class="item">
+                        <div class="col-item">
+                          <div class="product-wrapper">
+                            <div class="thumb-wrapper">
+                               <a class="blue test thumb flip" href="{{ product.href }}">
+                        <span class="face"><div class="image"><img style="width:85%;" src="{{ product.thumb }}" alt="{{ product.name }}"></div></span>
+                          <span class="face back"><div class="image"><img style="width:85%;" src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" href="{{ product.href }}"></div></span></a>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+                {% else %}
+              <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+                    {% endif %} 
+    </div>
+    <div class="col-sm-8">
+      <div class="caption">
+        <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+        {% if product.rating %}
+        <div class="rating">
+          {% for i in 5 %}
+          {% if product.rating < i %}
+          <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+          {% else %}
+          <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+       {% if product.price %}
+        <p class="price">
+          {% if not product.special %}
+          {{ product.price }}
+          {% else %}
+          <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
+          <div class="sale">
+	      	<span>HOT</span>
+	      </div>
+          {% endif %}
+        </p>
+        {% endif %}
+      </div>
+     </div>
+   </div>
+  </div>
+  {% endfor %}
+</div>
+

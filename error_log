@@ -1,0 +1,39 @@
+[19-Aug-2020 20:48:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/dkkkpmba/public_html/kasturicollection.com/system/library/db/mysqli.php:19
+Stack trace:
+#0 /home/dkkkpmba/public_html/kasturicollection.com/system/library/db.php(61): DB\MySQLi->__construct('localhost', 'dkkkpmba_kastur...', 'Kasturi12#$', 'dkkkpmba_kastur...', '3306')
+#1 /home/dkkkpmba/public_html/kasturicollection.com/system/framework.php(159): DB->__construct('mysqli', 'localhost', 'dkkkpmba_kastur...', 'Kasturi12#$', 'dkkkpmba_kastur...', '3306')
+#2 /home/dkkkpmba/public_html/kasturicollection.com/system/startup.php(207): require_once('/home/dkkkpmba/...')
+#3 /home/dkkkpmba/public_html/kasturicollection.com/index.php(37): start('catalog')
+#4 {main}
+  thrown in /home/dkkkpmba/public_html/kasturicollection.com/system/library/db/mysqli.php on line 19
+[29-Aug-2020 17:23:37 UTC] PHP Warning:  require_once(/home/dkkkpmba/public_html/kasturicollection.com/system/startup.php): failed to open stream: No such file or directory in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:23:37 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/dkkkpmba/public_html/kasturicollection.com/system/startup.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:35:04 UTC] PHP Warning:  require_once(/home/dkkkpmba/public_html/kasturicollection.com/system/startup.php): failed to open stream: No such file or directory in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:35:04 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/dkkkpmba/public_html/kasturicollection.com/system/startup.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:36:15 UTC] PHP Warning:  require_once(/home/kasturic/public_html/kasturicollection.com/system/startup.php): failed to open stream: No such file or directory in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:36:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/kasturic/public_html/kasturicollection.com/system/startup.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:37:36 UTC] PHP Warning:  require_once(/home/kasturic/public_html/kasturicollection.com/system/startup.php): failed to open stream: No such file or directory in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:37:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/kasturic/public_html/kasturicollection.com/system/startup.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:38:32 UTC] PHP Warning:  require_once(/home/kasturic/public_html/kasturicollection.com/system/startup.php): failed to open stream: No such file or directory in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:38:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/kasturic/public_html/kasturicollection.com/system/startup.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:45:36 UTC] PHP Warning:  require_once(/home/kasturic/public_html/kasturicollection.com/system/startup.php): failed to open stream: No such file or directory in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 17:45:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/kasturic/public_html/kasturicollection.com/system/startup.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kasturic/public_html/index.php on line 33
+[29-Aug-2020 18:07:34 UTC] PHP Fatal error:  Uncaught Exception: Error: Table 'kasturic_kasturicollection.oc_session' doesn't exist<br />Error No: 1146<br />SELECT `data` FROM `oc_session` WHERE session_id = 'fea9f32ab8fb069e23ddef76f4' AND expire > 1598724454 in /home/kasturic/public_html/system/library/db/mysqli.php:79
+Stack trace:
+#0 /home/kasturic/public_html/system/library/db.php(89): DB\MySQLi->query('SELECT `data` F...')
+#1 /home/kasturic/public_html/system/library/session/db.php(41): DB->query('SELECT `data` F...')
+#2 /home/kasturic/public_html/system/library/session.php(143): Session\DB->read('fea9f32ab8fb069...')
+#3 /home/kasturic/public_html/system/framework.php(211): Session->start('fea9f32ab8fb069...')
+#4 /home/kasturic/public_html/system/startup.php(207): require_once('/home/kasturic/...')
+#5 /home/kasturic/public_html/index.php(37): start('catalog')
+#6 {main}
+  thrown in /home/kasturic/public_html/system/library/db/mysqli.php on line 79
+[29-Aug-2020 18:26:46 UTC] PHP Fatal error:  Uncaught Exception: Error: Table 'kasturic_kasturicollection.oc_translation' doesn't exist<br />Error No: 1146<br />SELECT * FROM oc_translation WHERE store_id = '0' AND language_id = '0' AND (route = 'engb' OR route = '') in /home/kasturic/public_html/system/library/db/mysqli.php:79
+Stack trace:
+#0 /home/kasturic/public_html/system/library/db.php(89): DB\MySQLi->query('SELECT * FROM o...')
+#1 /home/kasturic/public_html/catalog/model/design/translation.php(11): DB->query('SELECT * FROM o...')
+#2 /home/kasturic/public_html/storage/modification/system/engine/loader.php(498): ModelDesignTranslation->getTranslations('engb')
+#3 /home/kasturic/public_html/system/engine/proxy.php(93): Loader->{closure}(Array, Array)
+#4 /home/kasturic/public_html/catalog/controller/event/translation.php(11): Proxy->__call('getTranslations', Array)
+#5 /home/kasturic/public_html/storage/modification/system/engine/action.php(157): ControllerEventTranslation->index('engb', '', Array)
+#6 /home/kasturic/public_html/system/engine/event.php( in /home/kasturic/public_html/system/library/db/mysqli.php on line 79

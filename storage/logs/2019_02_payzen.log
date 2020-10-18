@@ -1,0 +1,912 @@
+2019-02-14 2:39:00 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 702cd6aaa7cce34bcdfa319af14d2152751e3da3
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 600
+    [vads_available_languages] => en
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 131
+    [vads_order_info] => session_id=4edfdcf01c29f9d0e14659a3c1
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 83201819
+    [vads_trans_date] => 20190214023900
+    [vads_trans_id] => 095406
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 2:39:16 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 3282503d86bb3efb3d492a1308849f881b73beff
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 600
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 132
+    [vads_order_info] => session_id=4edfdcf01c29f9d0e14659a3c1
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => MULTI:first=200;count=3;period=30
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 12345678
+    [vads_trans_date] => 20190214023916
+    [vads_trans_id] => 095565
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen_multi/process
+    [vads_version] => V2
+)
+
+2019-02-14 9:33:36 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 88d9293fecb6c5d119e928f079defabe3d4d0846
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_currency] => 356
+    [vads_cust_address] => test test
+    [vads_cust_city] => mumbai
+    [vads_cust_country] => IN
+    [vads_cust_email] => Test@test.in
+    [vads_cust_first_name] => test
+    [vads_cust_id] => 24
+    [vads_cust_last_name] => test
+    [vads_cust_phone] => 78784519897
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 
+    [vads_language] => en
+    [vads_order_id] => 137
+    [vads_order_info] => session_id=6935e64094a16556b84084df45
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => mumbai
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => test
+    [vads_ship_to_last_name] => test
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => test
+    [vads_ship_to_street2] => test
+    [vads_ship_to_zip] => 
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190214093336
+    [vads_trans_id] => 344164
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 10:10:20 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 53e3f2ff078aee879fce6dc171d5d9dcfcaf8740
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => test test
+    [vads_cust_city] => mumbai
+    [vads_cust_country] => IN
+    [vads_cust_email] => Test@test.in
+    [vads_cust_first_name] => test
+    [vads_cust_id] => 24
+    [vads_cust_last_name] => test
+    [vads_cust_phone] => 78784519897
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 
+    [vads_language] => en
+    [vads_order_id] => 139
+    [vads_order_info] => session_id=6935e64094a16556b84084df45
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => mumbai
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => test
+    [vads_ship_to_last_name] => test
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => test
+    [vads_ship_to_street2] => test
+    [vads_ship_to_zip] => 
+    [vads_site_id] => 83201819
+    [vads_trans_date] => 20190214101020
+    [vads_trans_id] => 366202
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 10:10:41 - INFO - Begin server response processing.
+2019-02-14 10:10:41 - DEBUG - Parameters received from payment gateway : Array
+(
+    [vads_amount] => 5300
+    [vads_auth_mode] => FULL
+    [vads_auth_number] => 
+    [vads_auth_result] => 00
+    [vads_capture_delay] => 0
+    [vads_card_brand] => ATOM_IB
+    [vads_card_number] => 
+    [vads_payment_certificate] => 
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_effective_amount] => 5300
+    [vads_effective_currency] => 356
+    [vads_site_id] => 83201819
+    [vads_trans_date] => 20190214101020
+    [vads_trans_id] => 366202
+    [vads_trans_uuid] => 3a88a5fe10e24a68a7b6b074c684476e
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_warranty_result] => 
+    [vads_payment_src] => EC
+    [vads_ext_trans_id] => 255897
+    [vads_order_id] => 139
+    [vads_order_info] => session_id=6935e64094a16556b84084df45
+    [vads_cust_email] => Test@test.in
+    [vads_cust_id] => 24
+    [vads_cust_name] => test test
+    [vads_cust_first_name] => test
+    [vads_cust_last_name] => test
+    [vads_cust_address] => test test
+    [vads_cust_city] => mumbai
+    [vads_cust_country] => IN
+    [vads_cust_phone] => 78784519897
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_cust_state] => Maharashtra
+    [vads_ship_to_name] => test test
+    [vads_ship_to_street] => test
+    [vads_ship_to_street2] => test
+    [vads_ship_to_city] => mumbai
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => test
+    [vads_ship_to_last_name] => test
+    [vads_sequence_number] => 1
+    [vads_contract_used] => 34458566
+    [vads_trans_status] => CAPTURED
+    [vads_pays_ip] => 
+    [vads_presentation_date] => 20190214101034
+    [vads_effective_creation_date] => 20190214101023
+    [vads_operation_type] => DEBIT
+    [vads_threeds_enrolled] => 
+    [vads_threeds_cavv] => 
+    [vads_threeds_eci] => 
+    [vads_threeds_xid] => 
+    [vads_threeds_cavvAlgorithm] => 
+    [vads_threeds_status] => 
+    [vads_threeds_sign_valid] => 
+    [vads_threeds_error_code] => 4
+    [vads_threeds_exit_status] => 4
+    [vads_result] => 00
+    [vads_extra_result] => 
+    [vads_card_country] => 
+    [vads_language] => en
+    [vads_hash] => 44362369aceda96e0341f097d594d5cc180ee54b0d0b55bcbb88de6978942b2d
+    [vads_url_check_src] => PAY
+    [vads_action_mode] => INTERACTIVE
+    [vads_payment_config] => SINGLE
+    [vads_page_action] => PAYMENT
+    [vads_cust_zip] => 
+    [signature] => 841fcc7fe8b3e97e8d72e8d261a428519ea820f0
+)
+
+2019-02-14 10:10:41 - INFO - First payment notification. Let's change order status.
+2019-02-14 10:10:41 - INFO - Payment accepted. New order status is 5.
+2019-02-14 10:10:41 - INFO - Clear cart and session vars.
+2019-02-14 10:10:41 - INFO - End server response processing.
+2019-02-14 10:10:48 - INFO - Begin return user response processing.
+2019-02-14 10:10:48 - INFO - Payment notification confirmed. Payment accepted.
+2019-02-14 10:10:48 - INFO - End user return response processing.
+2019-02-14 10:11:28 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => cd074aaad058f3431604ea4b010ee0a2c275a7f5
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => test test
+    [vads_cust_city] => mumbai
+    [vads_cust_country] => IN
+    [vads_cust_email] => Test@test.in
+    [vads_cust_first_name] => test
+    [vads_cust_id] => 24
+    [vads_cust_last_name] => test
+    [vads_cust_phone] => 78784519897
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 
+    [vads_language] => en
+    [vads_order_id] => 140
+    [vads_order_info] => session_id=6935e64094a16556b84084df45
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => mumbai
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => test
+    [vads_ship_to_last_name] => test
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => test
+    [vads_ship_to_street2] => test
+    [vads_ship_to_zip] => 
+    [vads_site_id] => 83201819
+    [vads_trans_date] => 20190214101128
+    [vads_trans_id] => 366884
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 10:11:52 - INFO - Begin server response processing.
+2019-02-14 10:11:52 - DEBUG - Parameters received from payment gateway : Array
+(
+    [vads_amount] => 5300
+    [vads_auth_mode] => MARK
+    [vads_auth_number] => 
+    [vads_auth_result] => 
+    [vads_capture_delay] => 0
+    [vads_card_brand] => MASTERCARD
+    [vads_card_number] => 400625XXXXXX0007
+    [vads_payment_certificate] => 
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_effective_amount] => 5300
+    [vads_effective_currency] => 356
+    [vads_site_id] => 83201819
+    [vads_trans_date] => 20190214101128
+    [vads_trans_id] => 366884
+    [vads_trans_uuid] => 5f8d57278a8d4ae2b8947cf1ee8de712
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_warranty_result] => 
+    [vads_payment_src] => EC
+    [vads_order_id] => 140
+    [vads_order_info] => session_id=6935e64094a16556b84084df45
+    [vads_cust_email] => Test@test.in
+    [vads_cust_id] => 24
+    [vads_cust_name] => test test
+    [vads_cust_first_name] => test
+    [vads_cust_last_name] => test
+    [vads_cust_address] => test test
+    [vads_cust_city] => mumbai
+    [vads_cust_country] => IN
+    [vads_cust_phone] => 78784519897
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_cust_state] => Maharashtra
+    [vads_ship_to_name] => test test
+    [vads_ship_to_street] => test
+    [vads_ship_to_street2] => test
+    [vads_ship_to_city] => mumbai
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => test
+    [vads_ship_to_last_name] => test
+    [vads_sequence_number] => 1
+    [vads_contract_used] => 37900889
+    [vads_trans_status] => CAPTURED
+    [vads_expiry_month] => 4
+    [vads_expiry_year] => 2020
+    [vads_pays_ip] => 
+    [vads_presentation_date] => 20190214101134
+    [vads_effective_creation_date] => 20190214101130
+    [vads_operation_type] => DEBIT
+    [vads_threeds_enrolled] => 
+    [vads_threeds_cavv] => 
+    [vads_threeds_eci] => 
+    [vads_threeds_xid] => 
+    [vads_threeds_cavvAlgorithm] => 
+    [vads_threeds_status] => 
+    [vads_threeds_sign_valid] => 
+    [vads_threeds_error_code] => 4
+    [vads_threeds_exit_status] => 4
+    [vads_result] => 00
+    [vads_extra_result] => 
+    [vads_card_country] => 
+    [vads_language] => en
+    [vads_hash] => 66a45d88c4e80e5d1af8d51bde103febef97fd9116d835599b628391e178b060
+    [vads_url_check_src] => PAY
+    [vads_action_mode] => INTERACTIVE
+    [vads_payment_config] => SINGLE
+    [vads_page_action] => PAYMENT
+    [vads_cust_zip] => 
+    [signature] => 7093eaf09a44942141372c3f7358c0375765cf1e
+)
+
+2019-02-14 10:11:52 - INFO - First payment notification. Let's change order status.
+2019-02-14 10:11:52 - INFO - Payment accepted. New order status is 5.
+2019-02-14 10:11:52 - INFO - Clear cart and session vars.
+2019-02-14 10:11:53 - INFO - End server response processing.
+2019-02-14 10:12:03 - INFO - Begin return user response processing.
+2019-02-14 10:12:03 - INFO - Payment notification confirmed. Payment accepted.
+2019-02-14 10:12:03 - INFO - End user return response processing.
+2019-02-14 10:14:33 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 9668abda22c2fddbb8bbfde04cb1351b556a137b
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => test test
+    [vads_cust_city] => mumbai
+    [vads_cust_country] => IN
+    [vads_cust_email] => Test@test.in
+    [vads_cust_first_name] => test
+    [vads_cust_id] => 24
+    [vads_cust_last_name] => test
+    [vads_cust_phone] => 78784519897
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 
+    [vads_language] => en
+    [vads_order_id] => 141
+    [vads_order_info] => session_id=6935e64094a16556b84084df45
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => mumbai
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => test
+    [vads_ship_to_last_name] => test
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => test
+    [vads_ship_to_street2] => test
+    [vads_ship_to_zip] => 
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190214101433
+    [vads_trans_id] => 368730
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 10:44:46 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 61897bb471c8504acaa1b29cb69800db3ae419c0
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 144
+    [vads_order_info] => session_id=6bcf6cfff84f66f7608b1054c8
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190214104446
+    [vads_trans_id] => 386860
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 10:45:39 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => d221817552e1ed0e4c9e6e20354065c227df9ac3
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 145
+    [vads_order_info] => session_id=6bcf6cfff84f66f7608b1054c8
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190214104539
+    [vads_trans_id] => 387396
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 10:46:51 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 0a275e8c8404a7be82aa8aa515517f442397ab58
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 146
+    [vads_order_info] => session_id=6bcf6cfff84f66f7608b1054c8
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => MULTI:first=100;count=3;period=30
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 12345678
+    [vads_trans_date] => 20190214104651
+    [vads_trans_id] => 388114
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen_multi/process
+    [vads_version] => V2
+)
+
+2019-02-14 16:43:11 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => b56c27f7e005f66b2209b399c2cef3742bb411b2
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 148
+    [vads_order_info] => session_id=729aa5b009a01f23b3b84b162d
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => MULTI:first=100;count=3;period=30
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 12345678
+    [vads_trans_date] => 20190214164311
+    [vads_trans_id] => 601911
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen_multi/process
+    [vads_version] => V2
+)
+
+2019-02-14 16:43:51 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 5e945b00db522c412f4a569b99ec092b3669e80f
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 149
+    [vads_order_info] => session_id=729aa5b009a01f23b3b84b162d
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190214164351
+    [vads_trans_id] => 602318
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-14 17:06:49 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => eeb1e919381e7e8335b91cb1bb3f1182f1a7ad45
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 150
+    [vads_order_info] => session_id=729aa5b009a01f23b3b84b162d
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190214170649
+    [vads_trans_id] => 616092
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-15 4:14:56 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 561f59fa508e0bab8ddbfc12e31672a4c261b978
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 40700
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => dcnjdvjv
+    [vads_cust_city] => Mumbai
+    [vads_cust_country] => IN
+    [vads_cust_email] => test@yahoo.com
+    [vads_cust_first_name] => vnjfvb
+    [vads_cust_id] => 22
+    [vads_cust_last_name] => dnchbf
+    [vads_cust_phone] => +918989898989
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 
+    [vads_language] => en
+    [vads_order_id] => 153
+    [vads_order_info] => session_id=688e0b5a466842b0ca42e0c912
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Mumbai
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => vnjfvb
+    [vads_ship_to_last_name] => dnchbf
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => dcnjdvjv
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190215041456
+    [vads_trans_id] => 152965
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-15 4:32:45 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => f6d432a6e18d4fb292625ceb45d5091cc2522c94
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5900
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 155
+    [vads_order_info] => session_id=72d8698094728eeffedcc2dff9
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => MULTI:first=1967;count=3;period=30
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 12345678
+    [vads_trans_date] => 20190215043245
+    [vads_trans_id] => 163657
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen_multi/process
+    [vads_version] => V2
+)
+
+2019-02-15 4:34:11 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => fb9ad58d765fc5346eb53f971a5d84d167c7a1c9
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5900
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 156
+    [vads_order_info] => session_id=72d8698094728eeffedcc2dff9
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190215043411
+    [vads_trans_id] => 164513
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-02-15 5:55:25 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 7ec4c681334c6f834816d922e8bf0dd8d0a5619a
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 40700
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => dcnjdvjv
+    [vads_cust_city] => Mumbai
+    [vads_cust_country] => IN
+    [vads_cust_email] => test@yahoo.com
+    [vads_cust_first_name] => vnjfvb
+    [vads_cust_id] => 22
+    [vads_cust_last_name] => dnchbf
+    [vads_cust_phone] => +918989898989
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 
+    [vads_language] => en
+    [vads_order_id] => 157
+    [vads_order_info] => session_id=688e0b5a466842b0ca42e0c912
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => MULTI:first=13567;count=3;period=30
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Mumbai
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => vnjfvb
+    [vads_ship_to_last_name] => dnchbf
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => dcnjdvjv
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 
+    [vads_site_id] => 12345678
+    [vads_trans_date] => 20190215055525
+    [vads_trans_id] => 213255
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen_multi/process
+    [vads_version] => V2
+)
+
+2019-02-15 7:23:22 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => 43aba44c5815bf3bae45ceaf4f02d3b3e415d0ba
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 5900
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.26
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 158
+    [vads_order_info] => session_id=72d8698094728eeffedcc2dff9
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190215072322
+    [vads_trans_id] => 266027
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+

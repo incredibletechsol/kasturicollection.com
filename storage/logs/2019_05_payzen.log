@@ -1,0 +1,51 @@
+2019-05-29 17:31:06 - DEBUG - Parameters to send to payment gateway : Array
+(
+    [signature] => d05974100540beb369140c2367237a3937a3c330
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 300
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => OpenCart3.x_4.0.0/3.0.2.0/7.1.29
+    [vads_ctx_mode] => PRODUCTION
+    [vads_currency] => 356
+    [vads_cust_address] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_cust_city] => Indapur
+    [vads_cust_country] => IN
+    [vads_cust_email] => amitbaramatimca@gmail.com
+    [vads_cust_first_name] => Akshay
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => Suryawanshi
+    [vads_cust_phone] => 8796154725
+    [vads_cust_state] => Maharashtra
+    [vads_cust_zip] => 413106
+    [vads_language] => en
+    [vads_order_id] => 221
+    [vads_order_info] => session_id=f5198974887b50609c38eb642b
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => 
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirecting to the shop, please wait...
+    [vads_redirect_error_timeout] => 5
+    [vads_redirect_success_message] => Redirecting to the shop, please wait...
+    [vads_redirect_success_timeout] => 5
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Indapur
+    [vads_ship_to_country] => IN
+    [vads_ship_to_first_name] => Akshay
+    [vads_ship_to_last_name] => Suryawanshi
+    [vads_ship_to_state] => Maharashtra
+    [vads_ship_to_street] => Sonai Petrolium Service,Hingangoan,Pune-Solapur Highway
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 413106
+    [vads_site_id] => 19365924
+    [vads_trans_date] => 20190529173106
+    [vads_trans_id] => 630660
+    [vads_url_return] => http://vinayakelectrical.in/index.php?route=extension/payment/payzen/process
+    [vads_validation_mode] => 
+    [vads_version] => V2
+)
+
+2019-05-29 17:31:28 - INFO - Begin return user response processing.
+2019-05-29 17:31:28 - WARN - First payment notification by user return, server URL notification does not work. Let's change order status and show warning to merchant.
+2019-05-29 17:31:28 - INFO - Payment not accepted. New order status is 7.
+2019-05-29 17:31:29 - INFO - End user return response processing.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="{{ direction }}" lang="{{ lang }}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{ title }}</title>
+<base href="{{ base }}" />
+{% if description %}
+<meta name="description" content="{{ description }}" />
+{% endif %}
+{% if keywords %}
+<meta name="keywords" content="{{ keywords }}" />
+{% endif %}
+{% for link in links %}
+<link href="{{ link.href }}" rel="{{ link.rel }}" />
+{% endfor %}
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href='//fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+</head>
+<style>
+body{background:#4843d2; color:#fff; font-family:Poppins, Arial, Helvetica, sans-serif;}
+h1{font-weight:bold; line-height:normal;}
+.icon-maintenance{position:relative; margin-top:60px; display:inline-block;}
+.icon-maintenance1{font-size:180px;}
+.icon-maintenance2{position:absolute; top:19px; right:-18px;}
+.icon-maintenance3{position:absolute; top:17px; right:-85px;}
+@media (max-width: 767px) {
+	h1{font-size:22px;}
+	.icon-maintenance{margin-top:20px;}
+}
+</style>
+<body>
+<div id="common-maintenance" class="container">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+    <div class="icon-maintenance">
+    <i class="fa fa-wrench icon-maintenance1"></i>
+    <i class="fa fa-cog fa-spin fa-3x fa-fw icon-maintenance2"></i>
+    <i class="fa fa-cog fa-spin fa-5x fa-fw icon-maintenance3"></i>
+    </div>
+    </div>
+    <div class="col-sm-12">{{ message }}</div>
+  </div>
+</div>
+</body>
+</html>

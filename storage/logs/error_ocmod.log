@@ -1,0 +1,46 @@
+2019-01-19 17:25:08 - 
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/catalog/language/ru-ru/ru-ru.php
+MOD: (Replacing the button to buy if there is Not available) Замена кнопки купить
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/catalog/language/tr-tr/tr-tr.php
+MOD: (Replacing the button to buy if there is Not available) Замена кнопки купить
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/admin/language/zh-TW/common/login.php
+MOD: Admin-Login to add verification code check
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/admin/view/template/common/column_left.tpl
+MOD: d_admin_menu
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/admin/view/template/common/column_left.tpl
+MOD: d_admin_menu
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/catalog/view/theme/*/template/common/header.tpl
+MOD: d_ajax_search
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/admin/controller/extension/installer.php
+MOD: d_opencart_patch
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/catalog/controller/module/account.php
+MOD: Hide Account Menu IF Not Logged
+
+ERROR: CODE NOT FOUND!
+FILE: admin/view/template/sale/order_invoice.twig
+CODE: #{{ order.order_id }}
+MOD: Invoice Barcode By Kamran
+
+ERROR: CODE NOT FOUND!
+FILE: catalog/model/catalog/product.php
+CODE: $sql .= " LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
+MOD: SmartiApps Price Slider
+
+ERROR: FILE NOT FOUND!
+FILE: /home/dkkkpmba/public_html/vinayakelectrical.in/admin/language/nl-nl/common/header.php
+MOD: Two Factor Authentication for Open Cart 3 admin panel
